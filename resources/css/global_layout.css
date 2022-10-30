@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(15, 15, 116);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu {
+    position: sticky;
+    top: 0;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 1);
+    float: left;
+    width: 100%;
+}
+
+img.menu-icon {
+    transform: scale(1.1);
+}
+
+.page-sections,
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.page-sections>.left,
+.page-sections>.right {
+    padding-top: 18px;
+}
+
+.left,
+.center,
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left,
+.right {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.center {
+    width: 80%;
+    font-size: 1.7em;
+}
+
+#mail {
+    margin-top: 18%;
+}
+
+#bg-video {
+    display: flex;
+    right: 0;
+    width: 100%;
+    min-height: 50vh;
+    z-index: 1;
+}
+
+#bg-video>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-section {
+    display: flex;
+    width: 100%;
+    height: 1fr;
+    padding: 10em 5em 0em 5em;
+}
+
+.section-title {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#faq {
+    margin-bottom: 10em;
+}
+
+.left>div,
+.right>div {
+    height: min-content;
+}
+
+.active {
+    border-bottom: 0.2em solid #fff;
+}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 321px) and (max-width: 658px) {}
+
+@media only screen and (min-width: 659px) and (max-width: 1024px) {}
